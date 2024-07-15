@@ -16,7 +16,6 @@ subtitle_track = 1
 manager = resolve.GetProjectManager()
 project = manager.GetCurrentProject()
 timeline = project.GetCurrentTimeline()
-subtitles = timeline.GetItemListInTrack("subtitle", 1)
 clipname = timeline.GetItemListInTrack("video", 1)[0].GetName()
 offset = timeline.GetStartFrame()
 
